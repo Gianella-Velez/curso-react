@@ -1,16 +1,12 @@
 import './App.css';
 
-import Logo from './Components/Home/Logo.jsx';
-import Body from './Components/Home/Body.jsx';
-import Footer from './Components/Home/Footer.jsx';
+import Home from './screens/Home';
 
 function App() {
   
   return (
     <>
-    <Logo></Logo>
-    <Body></Body>
-    <Footer></Footer>
+    <Home />
     </>
   )
 }
